@@ -1,0 +1,25 @@
+.header {
+  height: 45px;
+  padding: 0 16px;
+  position: sticky;
+  background-color: #fff;
+  z-index: 10;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.header__actions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header__action > * {
+  cursor: pointer;
+}
+.header__icon {
+  cursor: pointer;
+}

@@ -1,0 +1,9 @@
+.footer {
+  position: sticky;
+  background-color: #fff;
+  z-index: 20;
+  bottom: 0;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+}

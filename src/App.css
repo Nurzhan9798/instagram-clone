@@ -1,0 +1,12 @@
+.app {
+  background-color: #fafafa;
+  width: 100%;
+  max-width: 768px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 1 auto;
+}
